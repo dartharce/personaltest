@@ -1,27 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">  
     <head>    
-
-
         <title>MAX Recocompensas</title>    
         <meta charset="UTF-8">
         <meta name="title" content="MAX Reward">
         <meta name="description" content="Descripción de la WEB">       
         <style>
-            body{
-                background: rgba(242,242,242,1);
-                background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
-                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(100%, rgba(207,207,207,1)));
-                background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
-                background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
-                background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
-                background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0 );
-            }
             #container{
             position: absolute;
-            top: 25%;
-            left: 45%;
+            top: 50%;
+            left: 50%;
             width: 450px;
             height: 300px;
             margin-left: -200px;
@@ -31,30 +19,11 @@
             #content{
             font-size: 0.8em;
             font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
             font-size: 20px;
-            text-align: center;           
-            } 
-            #content img{
-                width:500px;
-            }  
-            #content p{
-                color:#4e4e4e;
-                width:180%;
-                margin-left:-180px;
-            }
-            #content a{
-                text-decoration:none;
-            }
-            span{
-                color:#4e4e4e;
-            }
-            span b{
-                font-size:22px;
-            }
-            a{
-                color:#d52027;
-                font-weight:700;
-            }
+            text-align: justify;
+            texto-justify: inter-palabra;            
+            }   
         </style>
         <script type="text/javascript">
         var count = 25;
@@ -64,7 +33,7 @@
             var timer = document.getElementById("timer");
             if(count > 0){
                 count--;
-                timer.innerHTML = "Esta página  se redireccionará en <b>"+count+"</b> segundos.";
+                timer.innerHTML = "Esta página  se redireccionará en "+count+" segundos.";
                 setTimeout("countDown()", 1000);
             }else{
                 window.location.href = redirect;
@@ -73,10 +42,10 @@
         </script>
 
     </head>  
-    <body>ejemplo de push en visual code aa
+    <body>
         <div id="container">
             <div id="content">
-                <center><img src="logo.png" alt=""/></center>
+                <center><img src="logo2.png" alt=""/></center>
                 <p>Estimado usuario, nos mudamos de página y esta liga será inhabilitada en los siguientes meses, por lo que te invitamos a que entres a través del nuevo dominio: <a href="https://maxrecompensas.info">maxrecompensas.info</a>. </p>
                 <p>Cualquier duda contáctanos a través de <a href="mailto:contacto@recompensasmax.com">contacto@recompensasmax.com</a>, y sigue aprovechando los beneficios del programa</p>            
                 <span id="timer">
