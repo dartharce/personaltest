@@ -9,7 +9,5 @@
     <body>    
         Este solo es un ejempolo de pagina
         modificacion 20210822 
-
-
     </body>  
 </html>
