@@ -7,8 +7,6 @@
         <meta name="description" content="Descripción de la WEB">       
     </head>  
     <body>    
-        Este solo es un ejempolo de pagina
-        modificacion 20210822 
-        cambio en main
+        20210823 01
     </body>  
 </html>
