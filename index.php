@@ -7,6 +7,6 @@
         <meta name="description" content="Descripción de la WEB">       
     </head>  
     <body>    
-        20210823 02
+        20210823 03 desde netbeans
     </body>  
 </html>
